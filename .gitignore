@@ -1,5 +1,4 @@
 node_modules
 .nuxt
 .env
-fsd.md
 /app/generated/prisma
