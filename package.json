@@ -12,6 +12,7 @@
   "dependencies": {
     "@pinia/nuxt": "0.11.3",
     "@prisma/client": "^7.8.0",
+    "auth-utils": "1.0.0",
     "bcrypt": "^6.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

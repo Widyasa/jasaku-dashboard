@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: ["shadcn-nuxt", "nuxt-auth-utils", "@pinia/nuxt"],
+  modules: ["shadcn-nuxt", "nuxt-auth-utils", "@pinia/nuxt", "auth-utils"],
   shadcn: {
     /**
      * Prefix for all the imported component.

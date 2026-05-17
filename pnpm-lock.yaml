@@ -14,6 +14,9 @@ importers:
       '@prisma/client':
         specifier: ^7.8.0
         version: 7.8.0(prisma@7.8.0(@types/react@19.2.14)(magicast@0.5.2)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(typescript@5.9.3))(typescript@5.9.3)
+      auth-utils:
+        specifier: 1.0.0
+        version: 1.0.0
       bcrypt:
         specifier: ^6.0.0
         version: 6.0.0
@@ -1994,6 +1997,9 @@ packages:
     resolution: {integrity: sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==}
     engines: {node: '>= 4.5.0'}
     hasBin: true
+
+  auth-utils@1.0.0:
+    resolution: {integrity: sha512-cwYLm0fsIz/I0vDYb792L33mpyE8qtK+58SisRfxQOd4RtDVzV+Xxug5iASs5h3txtcNOhd8rRzEQ+SgsAf6Hw==}
 
   autoprefixer@10.5.0:
     resolution: {integrity: sha512-FMhOoZV4+qR6aTUALKX2rEqGG+oyATvwBt9IIzVR5rMa2HRWPkxf+P+PAJLD1I/H5/II+HuZcBJYEFBpq39ong==}
@@ -6908,6 +6914,8 @@ snapshots:
   async@3.2.6: {}
 
   atob@2.1.2: {}
+
+  auth-utils@1.0.0: {}
 
   autoprefixer@10.5.0(postcss@8.5.10):
     dependencies:
